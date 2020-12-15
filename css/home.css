@@ -1,0 +1,165 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.headerWrap{
+    display: flex;
+    background: #ffffff;
+    width: 100%;
+    height: 57px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.headerRogo{
+    margin-top: 6px;
+    padding-left: 140px;
+}
+
+.cart{
+    padding-left: 93px;
+    padding-top: 15px;
+}
+
+.koukoku{
+    width: 100%;
+    height: 60px;
+    background: #A0C4C3;
+    margin-top: 57px;
+}
+
+.koukokuTxt{
+    color: #ffffff;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.niceWrap,.saveWrap{
+    margin-top: 24px;
+}
+
+.nice,.save{
+    width: 172px;
+    height: 32px;
+    background: #A0C4C3;
+    text-align: center;
+    padding-top: 3px;
+    color: #ffffff;
+    font-family: 'Noto Sans JP', sans-serif; 
+    font-weight: 700;  
+    font-size: 16px;
+    border-radius: 0 16px 16px 0;
+    margin-bottom: 16px;
+}
+
+.imgWrap{
+    position: relative;
+}
+
+.imgWrap ul li:last-child{
+    background: #ffffff;
+    display: inline-block;
+}
+
+.imgWrap ul li:last-child{
+    position: relative;
+    display:block;
+}
+
+.imgWrap ul li:last-child img{
+    opacity: 0.3;
+}
+
+.imgWrap ul li:last-child::after{
+    content: 'もっと見る';
+    font-size: 12px;
+    font-weight: bold;
+    color: #262A38;
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%);
+    display: block;
+}
+
+.imgWrap ul{
+    display: flex;
+   overflow-x: scroll;
+   scrollbar-width: none;
+   white-space: nowrap;
+}
+
+.imgWrap ul::-webkit-scrollbar { display: none; }
+
+
+.imgWrap ul li{
+    list-style: none;
+}
+
+.imgWrapSub{
+    margin-bottom: 16px;
+}
+
+.imgWrapSub:last-child{
+    margin-bottom: 100px;
+}
+
+.img:first-child{
+    margin-left: 24px;
+}
+
+.img{
+    margin-right: 4px;
+}
+
+.conditionsWrap{
+    display: flex;
+}
+
+.conditionsWrap01{
+    margin-bottom: 4px;
+}
+
+.conditionsWrap02{
+    margin-bottom: 8px;
+}
+
+.conditions{
+    background: #E69A9B;
+    height: 24px;
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.conditions:first-child{
+    margin-left: 24px;
+}
+
+.conditions:nth-child(odd){
+    margin-right: 4px;
+}
+
+.txt01{
+    width: 151px;
+}
+
+.txt02{
+    width: 99px;
+}
+
+.txt03{
+    width: 57px;
+}
+
+.txt04{
+    width: 47px;
+}
+

@@ -1,0 +1,73 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin-top: 73px;
+}
+
+.rogo{
+    margin: 65% 28%;
+}
+
+.is-hide{
+    display: none;
+}
+
+.fadeout-bg {
+    transition-property: opacity;
+    transition-delay: .9s;
+    transition-duration: .8s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.fadeout-loader {
+    transition-property: opacity;
+    transition-delay: .9s;
+    transition-duration: .3s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+#loader-bg {
+    background: #ffffff;
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+footer{
+    width: 100%;
+    height: 55px;
+    background: #ffffff;
+    position: fixed;
+    bottom: 32px;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* home内容 */
+
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    color: #4C5267;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer img{
+    align-items: center;
+}
+
+.on{
+    color: #262A38;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+}

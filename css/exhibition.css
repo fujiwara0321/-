@@ -1,0 +1,176 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+.headerWrap{
+    display: flex;
+    background: #ffffff;
+    width: 100%;
+    height: 57px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.headerRogo{
+    margin-top: 6px;
+    padding-left: 140px;
+}
+
+.cart{
+    padding-left: 93px;
+    padding-top: 15px;
+}
+
+/* 条件 */
+
+.conditionsWrap{
+    display: flex;
+}
+
+.conditionsWrap01{
+    margin-bottom: 4px;
+    margin-top: 120px;
+}
+
+.conditionsWrap02{
+    margin-bottom: 8px;
+}
+
+.conditions{
+    background: #E69A9B;
+    height: 24px;
+    color: #ffffff;
+    border-radius: 12px;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.conditions:first-child{
+    margin-left: 24px;
+}
+
+.conditions:nth-child(odd){
+    margin-right: 4px;
+}
+
+.txt01{
+    width: 151px;
+}
+
+.txt02{
+    width: 99px;
+}
+
+.txt03{
+    width: 57px;
+}
+
+.txt04{
+    width: 47px;
+}
+
+/* 商品 */
+
+ul{
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 2px;
+    margin-top: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+ul li{
+    list-style: none;
+    position: relative;
+    height: 116px;
+    margin-bottom: 6px;
+}
+
+/* ul li:last-child{
+    width: 116px;
+    height: 116px;
+    background: #262A38;
+    display: inline-block;
+    border-radius: 2px;
+} */
+
+ul li:last-child img{
+    display:block;
+}
+
+ul li:last-child::after{
+    content: 'SOLD OUT';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    display:block;
+    background: #262A38;
+    height: 116px;
+    width: 116px;
+    opacity: 0.8;
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 40%;
+}
+
+/* いいね */
+
+.favorite{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ffffff;
+    width: 26px;
+    height: 26px;
+    border-radius: 3px 0 0 3px;
+    text-align: center;
+    padding-top: 3px;
+}
+
+
+
+/* フッター */
+
+footer{
+    width: 100%;
+    height: 55px;
+    background: #ffffff;
+    position: fixed;
+    bottom: 32px;
+    left: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 10px;
+    color: #4C5267;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+footer img{
+    align-items: center;
+}
+
+.on{
+    color: #262A38;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 500;
+}

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ress.css">
+    <link rel="stylesheet" href="css/exhibition-details.css">
+    <title>商品詳細</title>
+</head>
+<body>
+
+        <!------------ exhibition-details内容 ------------>
+
+        <header>
+            <button type="button" onclick="history.back()"><img src="img/btn_back.svg"><span>一覧へ戻る</span></button>
+        </header>
+    
+        <main>
+
+            <p class="top"><img src="img/imgBig06.svg"></p>
+
+            <p class="subname">輪廻転生を繰り返す</p>
+            <p class="name">ピタッと缶バッチvol.2&ensp;(星崎雷斗)</p>
+
+            <div class="icon">
+                <button>
+                    <svg version="1.1" class="click" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 512 512" style="width: 16px; height: 16px; opacity: 1;" xml:space="preserve">
+                        <g>
+                            <path class="click" d="M473.984,74.248c-50.688-50.703-132.875-50.703-183.563,0c-17.563,17.547-29.031,38.891-34.438,61.391
+                                c-5.375-22.5-16.844-43.844-34.406-61.391c-50.688-50.703-132.875-50.703-183.563,0c-50.688,50.688-50.688,132.875,0,183.547
+                                l217.969,217.984l218-217.984C524.672,207.123,524.672,124.936,473.984,74.248z" style="fill: rgb(50, 55, 70);"></path>
+                        </g>
+                    </svg>
+                    <span>5</span>
+                </button>
+                <button><a href="#comment"><img src="img/btn_comment.svg"><span>1</span></a></button>
+            </div>
+
+        <!------------ 交換条件 ------------>
+
+            <p class="title">交換条件</p>
+
+            <div class="change">
+
+                <div class="box">
+                    <p>輪廻転生を繰り返す</p>
+                    <p>星崎雷斗</p>
+                </div>
+    
+                <p><img src="img/icon_arrow.svg"></p>
+    
+                <div class="box">
+                    <p>輪廻転生を繰り返す</p>
+                    <p>空澄無月</p>
+                </div>
+                
+            </div>
+
+
+        <!------------ 商品の説明 ------------>
+
+        <p class="title">商品の説明</p>
+
+        <p class="product">【商品に関して】<br>
+        2020年9月14日に発売された「輪廻転生を繰り返す」の星崎雷斗の缶バッチ。<br>
+        幅：44mm。<br>
+        状態：新品。</p>
+
+        <!------------ 商品の状態 ------------>
+
+        <p class="title">商品の状態</p>
+
+
+        <dl>
+            <dt>状態</dt>
+            <dd>新品または未開封</dd>
+            <dt>発送状況</dt>
+            <dd>きゃらかえでの指定方法</dd>
+            <dt>発送元の地域</dt>
+            <dd>沖縄県</dd>
+            <dt>発送までの日数</dt>
+            <dd>2週間程度</dd>
+        </dl>
+
+    
+        <!------------ 出品者 ------------>
+
+        <p class="title">出品者</p>
+
+        <div class="exhibitionWrap">
+            <p><img src="img/icon_me.svg"></p>
+            <div class="profile">
+                <div class="star">
+                    <p><img src="img/icon_star.svg"></p>
+                    <p><img src="img/icon_star.svg"></p>
+                    <p><img src="img/icon_star.svg"></p>
+                    <p><img src="img/icon_star.svg"></p>
+                    <p><img src="img/icon_star.svg"></p>
+                </div>
+                <p>キャプテンバーロー</p>
+            </div>
+        </div>
+
+
+        <!------------ コメント ------------>
+
+        <div class="commentWrap" id="comment">
+
+            <p class="title">コメント</p>
+
+            <div class="humanWrap">
+                <p class="human"><img src="img/icon_you.svg"></p>
+    
+                <div class="comment">
+                    <p>コメント失礼します。<br>
+                    同様の商品の空澄無月の缶バッチと交換して欲しいです。<br>
+                    検討をお願いします。<br>
+                    <span>42分前</span></p>
+                </div>
+            </div>
+    
+            <button class="btn">メッセージを送る</button>
+        </div>
+
+        <footer>
+            <button class="btnBig">交換リクエストを送る</button>
+        </footer>
+
+        </main>
+    
+<script>
+
+    window.onload=function(){
+            let click = document.getElementsByClassName("click");
+            for(let i=0;i<=click.length-1;i++){
+                click[i].onclick=function(){
+                    click[i] . style . fill = "#BB6F6F"; 
+                }
+            
+            }
+        }
+
+
+</script>
+</body>
+</html>
